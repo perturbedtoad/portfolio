@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="iterativedesign.css"/>
+      <link rel="icon" href="art/animalcrossingclear.png">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script src="home.js"></script>
+    </head>
+    <body style="background-color:#ffffff; margin: 0; margin-top: 0;" oncontextmenu="return false">
+        <!-- Tab links -->
+        <div class="intro" >
+            <div class="tab">
+                <ul>
+                  <li><a >Home</a></li>
+                  <li><a >Code</a></li>
+                  <li><a >Animation</a></li>
+                  <li><a >Art</a></li>
+                  <li><a id="tab-selected">UI/UX</a></li>
+                  <li><a >Music</a></li>
+                </ul>
+              </div>  
+
+              <div style="text-align: center; margin-left: auto; padding:40px;">
+                <h1 class="title">
+                    Iterative Design: WANTD
+                </h1>
+                <h3 class="subtitle">A website design for WANTD, a sneakers buying and reselling platform.</h3>  
+              </div>
+
+        </div>
+
+        <div class="section" id="original-redesign">
+          <h1 class="sectiontitle">Project Overview</h1>
+          <h5>
+             Our aim for this project was to design a user interface for an emerging startup's concept, 
+             using an iterative design process flow - sketching ideas, creating an interactive hi-fi prototype that 
+             incorporates critiques, conducting user testing, and contacting the startup. Working in a group of 4, 
+             we designed an interactive desktop interface for WANTD, a platform for buying and selling trendy sneakers.
+          </h5>
+        </div>
+        <hr/>
+    
+
+        <div class="section">
+          <h1 class="sectiontitle">1. Selecting a Startup</h1>
+          <h5>
+            We chose WANTD, an online sneaker marketplace specifically for sneaker resale. It aims to facilitate fast, efficient resale for resellers and buyers. Its concept includes:
+            <ul>
+              <li>Virtual storefronts</li>
+              <li>Bulk inventory management for resellers, using bulk listing tools</li>
+              <li>Live video auctions</li>
+           </ul>
+            We also saw it as a hub for lovers of sneaker culture. The concept interested us - we wanted to see how we could make it feel like a sneaker site as opposed to any e-commerce fashion site.
+          </h5>
+        </div>
+        
+        <hr>
+
+        <div class="section">
+          <h1 class="sectiontitle">2. Initial Sketches</h1>
+          <h2 class="section-name">Set 1</h2>
+          <img style="width: 40%" src="sketches/collin1.jpg" />
+          <img style="width: 40%" src="sketches/collin2.jpg" />
+          <img style="width: 40%" src="sketches/collin3.jpg" />
+          <h2 class="section-name">Set 2</h2>
+          <img style="width: 40%" src="sketches/Simran1.jpg" />
+          <img style="width: 40%" src="sketches/Simran2.jpg" />
+          <img style="width: 40%" src="sketches/Simran3.jpg" />
+          <h2 class="section-name">Set 3</h2>
+          <img style="width: 40%" src="sketches/Megan1.jpg" />
+          <img style="width: 40%" src="sketches/Megan2.jpg" />
+          <img style="width: 40%" src="sketches/Megan3.jpg" />
+          <h2 class="section-name">Set 4</h2>
+          <img style="width: 40%" src="sketches/Isha1.jpg" />
+          <img style="width: 40%" src="sketches/Isha2.jpg" />
+          <img style="width: 40%" src="sketches/Isha3.jpg" />
+        </div>
+
+        <div class="section">
+          <h1 class="sectiontitle">3. Lo-Fi Wireframes</h1>
+          
+          <h2 class="section-name">Home</h2>
+          <h5>For Home, we decided to keep it simple - lots of images, minimal text. We included a Trending section for sneaker fanatics and Top Sellers to make things fun. In our menu, we have a news tab help people keep up with sneaker styles and trends.</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/Home.png" />
+
+          <h2 class="section-name">Login</h2>
+          <h5>We included multiple login options to cater to different kinds of users.</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/Login.png" />
+
+          <h2 class="section-name">Browse</h2>
+          <h5>We kept the shopping page visual and clean, with immediately visible filtering options for easier searching. Hearts can be used to 'save' or 'follow' an item.</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/Browse.png" />
+          <h5>For viewing specific items, we chose a modal popup instead of redirecting to a new page, so the user can switch in and out easily.</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/BrowseSelect.png" />
+
+          <h2 class="section-name">Cart</h2>
+          <h5>The cart is simple, focusing on important details. We included relevant navigation options (Continue Shopping, Wishlist, Checkout).</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/Cart.png" />
+
+          <h2 class="section-name">Profile</h2>
+          <h5>We designed the profile page to summarize a user's selling 'stats'. The side menu helps navigate to different profile sections. Having rankings gamifies the site a little, adding some fun.</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/Profile.png" />
+
+          <h2 class="section-name">Listings</h2>
+          <h5>Including Current Listings and Unlisted allows users to upload items they might want to sell without having to list them immediately (the collection of Unlisted items).
+            The checkboxes under each item enable bulk listing - the seller can check the items they want and use the buttons to manage all at once (i.e., list many items in one click).</h5>
+          <img style="width: 80%; margin-left: 10%;" src="lofi/Sell.png" />
+        </div>
+
+        
+        <hr/>
+
+
+        <div class="section">
+          <h1 class="sectiontitle">4. Hi-Fi Mockup and Critique</h1>
+          <h5>We made an initial hi-fi prototype based on our wireframes, and received critique on the first draft. This table summarizes the critiques we received and how we addressed them in our final hi-fi mockup. (For a visual aid, compare the final mock-up to the lo-fi wireframes!)</h5>
+          <table>
+            <tr>
+              <td><b>Original Hi-Fi</b></td>
+              <td><b>Critique</b></td>
+              <td><b>Final Hi-Fi</b></td>
+            </tr>
+            <tr>
+              <td>The image of shoes on the home screen took up the whole screen.</td>
+              <td>
+                <ul>
+                  <li>Didn't realize there was more content below it.</li>
+                  <li> Needed some indication that a user can scroll down.</li>
+                </ul>
+              </td>
+              <td>Added downwards arrow at the bottom of the image to indicate that users can scroll.</td>
+            </tr>
+            <tr>
+              <td>Red dot and words 'Live Now' indicated which items currently had a live auction going on (in Browse screen).</td>
+              <td>
+                <ul>
+                  <li>Users thought that 'Live Now' indicated live listings, not auctions.</li>
+                  <li>Users wondered why only some items had that tag.</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Changed 'Live Now' to 'Live Auction Now'.</li>
+                  <li>Added a Listing Type filter to emphasize the difference between Live Auction and Buy Now items.</li>
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>'Sell' tab in the the header menu led to the Listings page in the user profile.</td>
+              <td>
+                <ul>
+                  <li>Users expected 'Sell' tab to lead to a 'create listing' page.</li>
+                  <li>Users felt a step was being skipped by coming directly to the Listings page.</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>'Sell' in the header menu now leads to a different page which has buttons for the main actions related to selling - creating and managing listings.</li>
+                  <li>The Manage Listings in the new Sell page button leads to the Listings page.</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="section">
+          <h1 class="sectiontitle">5. Final Mockup</h1>
+          <h5>We incorporated feedback from our critique to create our final mockup. Expand to interact with it in full screen!</h5>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fe0h09Yoyqcojql7l80IxjM%2FWANTD-Hi-Fi-Prototype%3Fnode-id%3D5%253A22%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A22" allowfullscreen></iframe>
+        </div>
+
+        <div class="section">
+          <h1 class="sectiontitle">6. User Testing</h1>
+          <h5>We conducted three user tests. See below for the information we provided our users, as well as the results!</h5>
+          <h2 class="section-name">Task</h2>
+          <h5><b>Find a popular sneaker on the online reselling platform and add it to cart so you can purchase it.</b></h5>
+          <h5>Steps needed to accomplish this:</h5>
+          <h5><ul>
+            <li>Log into your account on the website.</li>
+            <li>Browse for the desired sneaker.</li>
+            <li>Add the sneaker to cart.</li>
+          </ul></h5>
+
+          <h2 class="section-name">Testing Instructions Provided</h2>
+          <h5>Imagine that you're a sneakerhead, and you're looking to purchase a popular shoe that you've always wanted on a new online reselling platform.</h5>
+          <h5>We would really appreciate it if throughout the process of completing the task, you would think out loud about what your thought process throughout the journey, such as what you're seeing and how easy/difficult it is to complete each task!</h5>
+          <h5>Note that this is not an actual website, but rather a mock/prototype of one. This means that while the interface will resemble a webpage, not all the components are clickable. However, following the instructions, you should be able to navigate through the website by clicking on the relevant buttons!</h5>
+          <h5><ol>
+            <li>Log into the website. Assume that your username and password are already filled out.</li>
+            <li>Once logged in, browse for the "Jordan 1 Retro High: Dior" shoe.</li>
+            <li>Add the shoe to your cart.</li>
+          </ol></h5>
+
+          <h2 class="section-name">Post-Test Questions</h2>
+          <h5><ol>
+            <li>If you could change one thing, how would you improve the site?</li>
+            <li>What did you like about the site?
+            </li>
+            <li>How likely are you to recommend this site to a friend or colleague (0 = Not at all likely, and 10 = Very likely)?</li>
+          </ol></h5>
+
+          <h2 class="section-name">Results</h2>
+          <h5>We have linked videos of the three user tests conducted.</h5>
+          <h5><a href="https://app.usertesting.com/v/b4b16eb5-89c1-472b-9b3b-a298ee4c0029?encrypted_video_handle=eb3b69ea-4624-44fd-8432-dd7aea11d0f8&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes&shared_via=link">Test 1</a></h5>
+            <h5><a href="https://app.usertesting.com/v/8547c5ad-c902-4500-8527-ddeedb67b048?encrypted_video_handle=91d05092-750b-4c12-8a10-bd2f6be14251&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes&shared_via=link">Test 2</a></h5>
+              <h5><a href="https://app.usertesting.com/v/511f2879-189c-4c13-97fb-7e0e2ba5ee88?encrypted_video_handle=9f697980-1dd3-45ca-9277-ad8e2767d2e6&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes&shared_via=link">Test 3</a></h5>
+          </ol></h5>
+        </div>
+    </body>
+</html>
+ 
