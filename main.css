@@ -1,0 +1,177 @@
+h1, h2, p, h3, h4, h5 {
+  font-family: Arial, sans-serif;
+  color: #3f3d58;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  color:rgb(99, 93, 96)
+}
+
+li {
+  color: #7d6a80;
+}
+
+#home-left {
+  flex: left; 
+  padding: 2% 2% 0 6%;
+}
+
+#links {
+  margin-top: 2em;
+  height: fit-content;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.buttonlink {
+  background-color: #7d6a80;
+  padding: 0.4em 1em 0.5em 1em;
+  border-radius: 2em;
+  margin-right: 0.5em;
+  
+  color: white;
+  font-family: Tahoma;
+  font-weight: bold; 
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.buttonlink:hover {
+  background-color: #9c839f;
+}
+
+.logolink {
+  background-color: transparent;
+  border: none;
+  padding: 0.5em 0.4em 0.3em 0.4em ;
+  border-radius: 0.3em;
+  text-decoration: none;
+}
+.logolink:hover{
+  background-color: #ffffff;
+}
+
+
+/*****MENU*****/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 1em;
+}
+
+.tab ul { 
+  margin: 0 auto; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  margin-right: 4em;
+}
+.tab li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.tab a {
+  /* color: #7d6a80; */
+  color: #626186;
+  text-transform: uppercase;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.tab a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  /* background: #7d6a80; */
+  background: #626186;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.tab a:hover:after { 
+  width: 90%; 
+  left: 5%; 
+}
+
+#tab-selected:after{
+  width: 80%; 
+  left: 10%;
+}
+
+.uiux-project {
+  background-color: rgb(255, 255, 255);
+  margin: 1em;
+  border-radius: 0.6em;
+  box-shadow: 0em 0.3em 1em #efefef;
+
+  height: fit-content;
+  width: 45%;
+  flex: left;
+
+  transition: all .2s ease-in-out; 
+}
+
+#uiux-project-right {
+  margin-left: 5%;
+}
+
+.uiux-project:hover {
+  transform: scale(1.05); 
+  }
+
+.uiux-project img {
+  width: 100%;
+  border-radius: 0.6em;
+}
+
+.uiux-project .info {
+  padding: 1em;
+  height: 7.5em;
+}
+
+.uiux-project-wrapper {
+  display: flex;
+  margin: 2em 6em 2em 6em;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-16px);
+		-ms-transform:     translateY(-16px);
+		transform:         translateY(-16px)
+	}
+	60% {
+		-webkit-transform: translateY(-8px);
+		-ms-transform:     translateY(-8px);
+		transform:         translateY(-8px)
+	}
+}
+
+.intro {
+  background-image: url("images/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
