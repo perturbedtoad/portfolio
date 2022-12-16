@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="responsiveredesign.css"/>
+      <link rel="icon" href="art/animalcrossingclear.png">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script src="home.js"></script>
+    </head>
+    <body style="background-color:#ffffff; margin: 0; margin-top: 0;" oncontextmenu="return false">
+        <!-- Tab links -->
+        <div class="intro" >
+            <div class="tab">
+                <ul>
+                  <li><a >Home</a></li>
+                  <li><a >Code</a></li>
+                  <li><a >Animation</a></li>
+                  <li><a >Art</a></li>
+                  <li><a id="tab-selected">UI/UX</a></li>
+                  <li><a >Music</a></li>
+                </ul>
+              </div>  
+
+              <div style="text-align: center; margin-left: auto; padding:40px;">
+                <h1 class="title">
+                    Responsive Redesign
+                </h1>
+                <h3 class="subtitle">A responsive redesign of the homepage website for Exotic Fruits, an India-based fruit export company.</h3>  
+              </div>
+
+        </div>
+
+        <div class="section" id="original-redesign">
+          <h1 class="sectiontitle">Project Overview</h1>
+          <h5>
+            In this project I chose to redesign the homepage for Exotic Fruits,
+            and India-based exporter of tropical fruit products. The site is
+            fairly simple and there are clear attempts at achieving more modern UI
+            trends. However, despite its potential there are still major issues
+            with its organization, aesthetics, and presentation of information.
+          </h5>
+          <div style="text-align: center; margin-top: 2.5em;">
+            <a class="button" href="https://www.exotic-fruit.com" target="_blank"
+            >Original Website</a>
+            <a
+              class="button"
+              href="https://perturbedtoad.github.io/exoticfruits/"
+              target="_blank"
+              id="redesign-button"
+              >Redesigned Website</a></div>
+        </div>
+
+        <hr/>
+        
+
+        <div class="section">
+          <h1 class="sectiontitle">1. Identifying Usability Issues</h1>
+          <h5>
+              To identify aspects of the site that could be improved, I analyzed it
+            based on four criteria: usability, learnability, memorability, and
+            accessibility.
+          </h5>
+          <div class="wrap">
+            <iframe
+              class="frame-prototype"
+              style="width: 100%; height: 80%"
+              src="https://exotic-fruit.com/"
+            ></iframe>
+          </div>
+          <table>
+            <tr>
+              <td class="leftcolumn"><h3>Usability</h3></td>
+              <td>
+                <ul>
+                  <li>
+                    Very <b>text-heavy</b> (small font, lack of margins, large
+                    paragraphs) detracts from aesthetic and minimalist values
+                  </li>
+                  <br />
+                  <li>
+                    Text diminishes visibility of most important points and prevents
+                    users from being able to quickly understand info upon a glance
+                  </li>
+                  <br />
+                  <li>
+                    Different parts of the page <b>do not feel consistent</b> with each
+                    other--i.e. the roundness of the elements and larger, bolder text
+                    under the Products section clashes with the rest of the site
+                  </li>
+                  <br />
+                  <li>
+                    There is general
+                    <b>lack of action phrases and elements</b>--information is presented
+                    very factually and does not invite users to learn more about the
+                    site
+                  </li>
+                  <br />
+                  <li>
+                    Minor: the dots indicating the homepage slider are vertical, while
+                    the images scroll horizontally
+                  </li>
+                  <br />
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="leftcolumn"><h3>Learnability</h3></td>
+              <td>
+                <ul>
+                  <li>The site is fairly simple and is generally easily learned</li>
+                  <br />
+                  <li>
+                    Element functions are consistent--i.e. the navigation menu buttons
+                    all behave in the same way (scroll to the relevant part of the page)
+                  </li>
+                  <br />
+                  <li>
+                    <b>Viewing specifications of products is confusing.</b> It is not
+                    apparent that the fruit pictures under Products can be clicked to
+                    view specs, and even less so that the specs only pop up when the eye
+                    icon is clicked after hovering over the picture
+                  </li>
+                  <br />
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="leftcolumn"><h3>Memorability</h3></td>
+              <td>
+                <ul>
+                  <li>
+                    <b>Lack of hierarchy</b> in large chunks of text make it difficult
+                    for viewers who are skimming the website to recall the most
+                    important points in each section
+                  </li>
+                  <br />
+                  <li>
+                    <b>Lack of recognizable font scheme, color scheme, or design</b
+                    >--all text looks very "default"
+                  </li>
+                  <br />
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="leftcolumn"><h3>Accessibility</h3></td>
+              <td>
+                <h5>
+                  I used
+                  <a
+                    href="https://wave.webaim.org/"
+                    target="_blank"
+                    style="color: black"
+                    >WebAIM WAVE</a
+                  >
+                  to detect accesibility problems with the site. It largely detected
+                  issues with contrast and lack of hierarchy in the text, all of which I
+                  strongly agree with.
+                </h5>
+                <ul>
+                  <li>
+                    Main title text over image, button text under Products section, and
+                    navigation menu are not very legible due to low contrast and weak
+                    font
+                  </li>
+                  <br />
+                  <li>
+                    Hierarchies could be improved--some locations where subtitles are
+                    smaller and less legible than they could be
+                  </li>
+                  <br />
+                  <li>Images do not have alt text</li>
+                  <br />
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+
+        <hr/>
+        
+        
+        <div class="section" id="lofi">
+          <h1 class="sectiontitle">2. Lo-Fi Prototypes</h1>
+          <h5>
+            Below are three UI redesigns (for desktop, mobile, and tablet modes) I
+            sketched for the Exotic Fruits homepage addressing the issues described
+            above.
+          </h5>
+          <h2 class="section-name">Desktop</h2>
+          <img style="width: 100%" src="desktoplofi.png" />
+          <h2 class="section-name">Tablet</h2>
+          <img style="width: 100%" src="tabletlofi.png" />
+          <h2 class="section-name">Mobile</h2>
+          <img style="width: 100%" src="mobilelofi.png" />
+        </div>
+        
+        <hr/>
+
+        <div class="section" id="styleguide">
+          <h1 class="sectiontitle">2.Visual Design Style Guide</h1>
+          <img id="style-guide" src="styleguide.png" />
+        </div>
+
+        <hr/>
+
+        <div class="section" id="hifi">
+          <h1 class="sectiontitle">2. Hi-Fi Prototypes</h1>
+          <h5>
+            From my lo-fi sketches, I developed hi-fi prototypes following my visual
+            design style guide.
+          </h5>
+          <h2 class="section-name">Desktop</h2>
+          <img class="hifiimage" src="desktophifi.png" />
+          <h2 class="section-name">Tablet</h2>
+          <img class="hifiimage" src="tablethifi.png" />
+          <h2 class="section-name">Mobile</h2>
+          <img class="hifiimage" src="mobilehifi.png" />
+        </div>
+
+      <div class="section" id="redesign">
+        <h1 class="sectiontitle">5. Responsive Redesign</h1>
+        <h5>
+          Finally, I redesigned a homepage following my prototypes and visual
+          design guide, which can be viewed below:
+        </h5>
+        
+        <a
+          class="button"
+          href="https://perturbedtoad.github.io/exoticfruits/"
+          style="margin-left: 40%; margin-bottom: 5em"
+          >Redesigned Website</a>
+        <div class="wrap">
+          <iframe
+            class="frame-prototype"
+            style="width: 100%; height: 80%"
+            src="https://perturbedtoad.github.io/exoticfruits/"
+          ></iframe>
+        </div>
+      </div>
+
+        <script>
+           
+        </script>
+    </body>
+</html>
+ 
